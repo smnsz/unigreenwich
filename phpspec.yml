@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Community
+        psr4_prefix: Community
+        src_path: app

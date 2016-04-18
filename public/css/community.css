@@ -1,0 +1,197 @@
+.navbar-brand {
+    padding: 25px 20px 25px 20px;
+
+}
+
+.navbar-default .navbar-nav li a {
+    text-align: center;
+    text-transform: uppercase;
+    color: #2e40a2;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.navbar-default .navbar-nav li.active a,
+.navbar-default .navbar-nav li.active a:hover {
+    background-color: #FB503B;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    opacity: 1;
+    color: #0400a0;
+}
+
+@media (min-width: 768px) {
+    .nav.nav-pills > li {
+        float: left;
+    }
+    h1.page-title {
+        display: inline-block;
+        margin: 0;
+    }
+    .navbar-default .navbar-collapse {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        background-color: transparent;
+    }
+    .navbar-default .navbar-nav li a {
+        padding: 40px 10px;
+    }
+
+    .navbar-default .navbar-nav li.active a,
+    .navbar-default .navbar-nav li.active a:hover {
+        border-bottom: #FB503B 3px solid;
+        padding-bottom: 37px;
+        color: #33383A;
+        background-color: transparent;
+    }
+}
+
+.navbar-default .btn-primary {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 33px 0;
+    background-color: transparent;
+}
+
+.navbar-default .btn-primary.dropdown-toggle {
+    padding: 5px;
+    line-height: 10px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+
+
+.navbar-default .btn-primary + .btn-primary {
+    margin-left: 5px;
+}
+
+.navbar-default .btn-primary:hover {
+    color: white;
+    border-color: transparent;
+    background-color: #FB503B;
+}
+
+#footer {
+    height: 60px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 -1px 2px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 -1px 2px rgba(0,0,0,.1);
+    box-shadow: 0 -1px 2px rgba(0,0,0,.1);
+}
+
+.container .credit {
+    margin: 20px 0;
+}
+
+#footer > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #0d5ea9;
+}
+
+/* additional CSS */
+
+@media screen and (min-width: 992px) {
+  .the-icons li {
+    width: 12.5%;
+  }
+}
+  
+.the-buttons > li {
+  float: left;
+  height: 80px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 -1px -1px 0;
+}
+  
+.the-icons .glyphicon {
+  display: block;
+  margin: 5px auto;
+  vertical-align: middle;
+  margin-right: 3px;
+  font-size: 24px;
+}
+
+.the-icons li {
+  float: left;
+  width: 100px;
+  height: 110px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.the-icons, .the-buttons {
+	list-style:none;
+}
+
+.the-icons .glyphicon {
+	display:inline;
+}
+
+.title-link, .title-link:hover{
+	text-decoration: none;
+	color:inherit;
+}
+
+.post .entry-byline{
+    margin: 10px 0 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.post .entry-byline .fa{
+    margin-right: 5px;
+}
+.post .entry-byline a{
+    font-size: 14px;
+    font-weight: 600;
+}
+.post .entry-byline span, .post .entry-byline time{
+    font-size: 14px;
+    font-weight: 600;
+}
+.post .entry-byline .right-border{
+    border-right-style: solid;
+    border-right-width: 1px;
+    padding-right: 16px;
+    margin-right: 16px;
+}
